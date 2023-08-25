@@ -1,0 +1,8 @@
+{
+  "name": "SwingStrong",
+  "short_name": "SwingStrong",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Weight training with kettlebells"
+}
