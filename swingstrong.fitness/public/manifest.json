@@ -4,5 +4,12 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "Weight training with kettlebells"
+  "description": "Weight training with kettlebells",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }

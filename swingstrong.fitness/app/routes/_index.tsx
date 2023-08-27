@@ -1,5 +1,6 @@
 import type { V2_MetaFunction } from "@remix-run/node";
 import { cn } from "~/lib/utils";
+import KettlebellIcon from "~/components/icons/KettlebellIcon";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -25,7 +26,7 @@ export default function Index() {
         <div className={cn("container", "flex", "h-14", "items-center")}>
           <div className={cn("mr-4", "hidden", "md:flex")}>
             <a
-              href=""
+              href="/"
               className={cn(
                 "mr-6",
                 "text-xl",
@@ -34,7 +35,9 @@ export default function Index() {
                 "space-x-2"
               )}
             >
-              <span>💪</span>
+              <span className={cn("w-6", "h-6")}>
+                <KettlebellIcon />
+              </span>
               <span className={cn("font-bold", "sm:inline-bloc")}>
                 Swing Strong
               </span>
@@ -70,7 +73,8 @@ export default function Index() {
             <span
               className={cn("text-lg", "text-muted-foreground", "sm:text-x")}
             >
-              Learn, track workouts, and gain muscle with kettlebell weight training.
+              Learn, track workouts, and gain muscle with kettlebell weight
+              training.
             </span>
           </section>
         </div>
