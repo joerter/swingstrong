@@ -29,6 +29,7 @@ export default function App() {
         <Outlet />
         <ScrollRestoration />
         <Scripts />
+        <script type="module" src="/register-sw.js"></script>
         <LiveReload />
       </body>
     </html>

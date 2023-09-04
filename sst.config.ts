@@ -4,8 +4,9 @@ import AppStack from "./stacks/AppStack";
 export default {
   config(_input) {
     return {
-      name: "swing-strong",
-      region: "us-east-1",
+      name: "swingstrong",
+      region: "us-east-2",
+      profile: _input.stage === "production" ? "redgreenrefactor-production" : "redgreenrefactor-dev"
     };
   },
   stacks(app) {

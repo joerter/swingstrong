@@ -4,8 +4,8 @@ import KettlebellIcon from "~/components/icons/KettlebellIcon";
 
 export const meta: V2_MetaFunction = () => {
   return [
-    { title: "Swing Strong" },
-    { name: "description", content: "Welcome to Swing Strong!" },
+    { title: "Swingstrong" },
+    { name: "description", content: "Welcome to Swingstrong!" },
   ];
 };
 
@@ -39,7 +39,7 @@ export default function Index() {
                 <KettlebellIcon />
               </span>
               <span className={cn("font-bold", "sm:inline-bloc")}>
-                Swing Strong
+                Swingstrong
               </span>
             </a>
           </div>
